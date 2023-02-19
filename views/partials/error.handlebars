@@ -1,0 +1,18 @@
+<style>
+    .error{
+        background-color: rgba(141, 54, 54, 0.664);
+        color: white;
+        text-align: center;
+        height: 1.2em;
+        font-size: 1.2em;
+        padding-top: 2px;
+        position: relative;
+        transform: translate(0, -200%);
+    }
+</style>
+
+{{#each error}}
+<div class="error">
+    <h2>{{message}}</h2>
+</div>
+{{/each}}
